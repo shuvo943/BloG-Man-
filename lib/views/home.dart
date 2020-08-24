@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
                   stream: blogsStream,
                   builder: (context, snapshot) {
                     return ListView.builder(
-                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        padding: EdgeInsets.symmetric(horizontal: 17),
                         itemCount: snapshot.data.documents.length,
                         shrinkWrap: true,
                         itemBuilder: (context, index) {
